@@ -1,3 +1,3 @@
 FROM ubuntu
-COPY  /artifact/sneha-47.jar /app/
+COPY  /artifact/sneha-${BILD_ID}.jar/   app/
 ENTRYPOINT ["java","-jar","app.jar"]
