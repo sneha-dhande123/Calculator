@@ -1,4 +1,4 @@
 FROM ubuntu
 WORKDIR /app
-COPY target/sneha-${BUILD_ID}.jar app.jar
+COPY  sneha-${BUILD_ID}.jar /app/
 ENTRYPOINT ["java","-jar","app.jar"]
