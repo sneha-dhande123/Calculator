@@ -17,7 +17,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - image: snehadh.azurecr.io/snehaimage:latest
+      - image: sneha123.azurecr.io
         name: nginx
 ---
 apiVersion: v1
