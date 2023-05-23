@@ -17,7 +17,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - image: nginx
+      - image: 964215206189.dkr.ecr.ap-south-1.amazonaws.com/demosneha
         name: nginx
 ---
 apiVersion: v1
